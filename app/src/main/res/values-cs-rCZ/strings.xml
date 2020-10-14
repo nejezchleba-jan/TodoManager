@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="title">Titulek:</string>
+    <string name="content">Obsah:</string>
+    <string name="ok">Ok</string>
+    <string name="insert">Přidat</string>
+    <string name="randomText">Random button</string>
+</resources>
