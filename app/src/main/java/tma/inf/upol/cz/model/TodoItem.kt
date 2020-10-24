@@ -1,9 +1,10 @@
 package tma.inf.upol.cz.Models
 
-class TodoItem(title: String, content: String) {
+class TodoItem(title: String, content: String, finished: Boolean) {
 
     private var mTitle: String = title
     private var mContent: String = content
+    private var mFinished: Boolean = finished;
 
     fun getTitle(): String {
         return mTitle
@@ -19,6 +20,14 @@ class TodoItem(title: String, content: String) {
 
     fun setContent(content: String) {
         mContent = content
+    }
+
+    fun getFinished(): Boolean {
+        return mFinished
+    }
+
+    fun setFinished(finished: Boolean) {
+        mFinished = finished
     }
 
     override fun toString(): String {
